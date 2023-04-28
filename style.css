@@ -1,0 +1,168 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100vh;
+    background-image: url(/Web\ 1920\ –\ 1_auto_x2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-family: 'Knewave', cursive;
+    font-size: 170px;
+    font-weight: 200;
+    transform: rotate(-10deg);
+    position: absolute;
+    left: 37%;
+    top: 23%;
+    font-family: Stereoflows;
+    transition: all ease .5s;
+
+}
+h1:hover{
+    color: grey;
+    scale: 1.1;
+    transition: all ease .5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 450;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    height: 40px;
+}
+.first{
+    display: flex;
+    gap: 30px;
+}
+.second{
+    display: flex;
+    gap: 30px;
+}
+
+.para{
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    font-weight: 530;
+}
+ .span1{
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    margin-top: 70px;
+    color: rgb(108, 107, 107);
+    font-size: 13px;
+}
+
+/* bottom left para */
+
+.span2{
+    color: rgb(108, 107, 107);
+    position: absolute;
+    bottom: 27%;
+    left: 3%;
+    font-size: 13px;
+}
+h3{
+    position: absolute;
+    bottom: 17%;
+    left: 3%;
+}
+h5{
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all ease .5s;
+}
+h5:hover{
+    background-color: grey;
+    color: black;
+    font-weight: bolder;
+    scale: 1.1;
+    transition: all ease .5s;
+}
+/* top right span */
+.span3{
+    color: rgb(108, 107, 107);
+    position: absolute;
+    font-size: 13px;
+    top: 12%;
+    right: 20%;
+}
+
+/* images */
+.img1{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+.img2{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    right: 16%;
+}
+.img3{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    right: 12%;
+}
+
+/* bottom images */
+.img4{
+    height: 150px;
+    width: 200px;
+    bottom: 0;
+    right: 38.6%;
+    position: absolute;
+}
+.img5{
+    height: 150px;
+    width: 200px;
+    bottom: 0;
+    right: 22%;
+    position: absolute;
+}
+.img6{
+    height: 150px;
+    width: 200px;
+    bottom: 0;
+    right: 5%;
+    position: absolute;
+
+}
